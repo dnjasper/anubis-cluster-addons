@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: anubis-cluster-addons
+  namespace: flux-system
+spec:
+  interval: 1m
+  url: ssh://git@github.com/dnjasper/anubis-cluster-addons.git 
+  ref:
+    branch: main
