@@ -2,10 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: HelmRepository
 metadata:
   name: eks
-  namespace: kube-system
+  namespace: flux-system
 spec:
-#  url: https://aws.github.io/eks-charts
-  url: ssh://git@://github.com
-
-
-  interval: 1h # I love you Brotha
+  url: https://aws.github.io/eks-charts
+  interval: 1h
