@@ -4,5 +4,6 @@ metadata:
   name: eks
   namespace: kube-system
 spec:
-  url: https://aws.github.io/eks-charts
+#  url: https://aws.github.io/eks-charts
+  url: https://github.io
   interval: 1h # I love you Brotha
