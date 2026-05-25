@@ -9,5 +9,5 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: flus-system
+    name: flux-system
   targetNamespace: kube-system
