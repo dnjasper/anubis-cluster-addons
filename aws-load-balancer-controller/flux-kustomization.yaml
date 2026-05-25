@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  path: ./anubis-cluster-addons/aws-load-balancer-controller
+  path: ./aws-load-balancer-controller
   prune: true
   sourceRef:
     kind: GitRepository
