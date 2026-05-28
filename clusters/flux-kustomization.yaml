@@ -11,3 +11,5 @@ spec:
     kind: GitRepository
     name: anubis-app-delivery-source
   targetNamespace: default
+  resources:
+  - ../aws-load-balancer-controller
