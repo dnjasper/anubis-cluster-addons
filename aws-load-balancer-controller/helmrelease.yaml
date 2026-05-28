@@ -20,5 +20,4 @@ spec:
       create: false
       name: aws-load-balancer-controller
 
-    ingressClassParams:
-      create: false  # Keep going.
+      # Keep going.
