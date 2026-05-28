@@ -9,5 +9,5 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: anubis-cluster-addons
+    name: flux-system
   targetNamespace: kube-system
