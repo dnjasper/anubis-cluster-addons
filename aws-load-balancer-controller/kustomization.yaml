@@ -3,5 +3,6 @@ kind: Kustomization
 resources:
   - helmrelease.yaml
   - helmrepo.yaml
-  - gitrepo.yaml
+  - app-kustomization.yaml
+#  - gitrepo.yaml
    
