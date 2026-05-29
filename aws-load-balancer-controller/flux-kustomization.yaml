@@ -12,4 +12,4 @@ spec:
     name: anubis-app-delivery-source
   # name: flux-system
 
-  targetNamespace: kube-system
+  targetNamespace: flux-system
