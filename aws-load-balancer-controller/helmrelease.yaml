@@ -19,5 +19,6 @@ spec:
     serviceAccount:
       create: true
       name: aws-load-balancer-controller
-
+      annotations:
+      eks.amazonaws.com/role-arn: arn:aws:iam::533267265715:role/aws-load-balancer-controller-role
       # eep going.
