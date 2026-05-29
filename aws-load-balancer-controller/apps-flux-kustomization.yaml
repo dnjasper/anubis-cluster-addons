@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  path: apps/anubis-api/base/environments/dev   # path inside the secondary repo
+  path: apps/anubis-api/environments/dev   # path inside the secondary repo
   prune: true
   sourceRef:
     kind: GitRepository
