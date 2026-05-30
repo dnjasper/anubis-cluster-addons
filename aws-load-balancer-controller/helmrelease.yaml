@@ -17,7 +17,7 @@ spec:
     region: us-east-1
 
     serviceAccount:
-      create: true
+      create: false
       name: aws-load-balancer-controller
       annotations:
         eks.amazonaws.com/role-arn: arn:aws:iam::533267265715:role/anubis_role
