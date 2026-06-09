@@ -7,4 +7,5 @@ resources:
   - gitrepo.yaml
   - apps-flux-kustomization.yaml
   - flux-system-secret.sops.yaml
+  - flux-git-deploy.yaml
  # - flux-system-kustomization.yaml
