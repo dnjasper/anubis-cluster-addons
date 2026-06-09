@@ -8,4 +8,4 @@ resources:
   - apps-flux-kustomization.yaml
   - flux-system-secret.sops.yaml
   - flux-git-deploy.yaml
-  - flux-system-kustomization.yaml
+  # flux-system-kustomization.yaml
