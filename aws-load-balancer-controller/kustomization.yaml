@@ -6,5 +6,5 @@ resources:
   - helmrepo.yaml
   - gitrepo.yaml
   - apps-flux-kustomization.yaml
-  - flux-system-secret.enc.yaml
+  - flux-system-secret.sops.yaml
   - flux-system-kustomization.yaml
