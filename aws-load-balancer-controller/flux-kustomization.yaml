@@ -12,6 +12,8 @@ spec:
     name: anubis-app-delivery-source
   # name: flux-system
   
-  
-
   targetNamespace: flux-system
+  decryption:
+    provider: sops
+    secretRef:
+      name: flux-system
