@@ -15,5 +15,4 @@ spec:
   targetNamespace: flux-system
   decryption:
     provider: sops
-    secretRef:
-      name: flux-system
+  

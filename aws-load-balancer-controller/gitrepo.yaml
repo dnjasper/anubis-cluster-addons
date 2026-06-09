@@ -4,9 +4,9 @@ metadata:
   name: anubis-app-delivery-source
   namespace: flux-system
 spec:
-  interval: 2m
+  interval: 1m
   url: ssh://git@github.com/dnjasper/anubis-app-delivery.git
   ref:
     branch: main
   secretRef:
-    name: flux-system
+    name: flux-git-deploy
