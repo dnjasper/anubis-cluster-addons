@@ -1,16 +1,15 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: aws-load-balancer-controller
+  name: flux-system # ◄ MATCHES THE ROOT SYSTEM OBJECT EXACTLY
   namespace: flux-system
 spec:
-  interval: 1m
+  interval: 5m
   path: ./aws-load-balancer-controller
   prune: true
   sourceRef:
     kind: GitRepository
     name: flux-system
-  #  name: anubis-app-delivery-source
-  
-
-  targetNamespace: flux-system
+  # ◄ THE MASTER WIRE: Gives the root system permission to decrypt files!
+  decryption:
+    provider: sops
