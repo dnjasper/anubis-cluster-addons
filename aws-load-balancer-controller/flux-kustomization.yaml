@@ -9,7 +9,11 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: anubis-app-delivery-source
-  # name: flux-system
+    name: flux-system
+  #  name: anubis-app-delivery-source
+  
 
   targetNamespace: flux-system
+
+  decryption:
+    provider: sops
