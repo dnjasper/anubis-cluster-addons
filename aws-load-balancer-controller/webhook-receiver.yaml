@@ -1,7 +1,7 @@
 apiVersion: notification.toolkit.fluxcd.io/v1beta2
 kind: Receiver
 metadata:
-  name: github-receiver
+  name: github-receiver # I love you DJ
   namespace: flux-system
 spec:
   type: github
