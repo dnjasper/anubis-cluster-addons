@@ -16,6 +16,9 @@ spec:
         namespace: monitoring # ◄ Points to the admin-level source repo
   install:
     createNamespace: false
+    timeout: 15m
+  upgrade:
+    timeout: 15m
   values:
     grafana:
       adminUser: admin
