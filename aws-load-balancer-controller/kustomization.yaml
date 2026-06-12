@@ -6,6 +6,9 @@ resources:
   - helmrepo.yaml
   - gitrepo.yaml
   - apps-flux-kustomization.yaml
+  - webhook-receiver.yaml
+  - provider.yaml
+  - alert.yaml
  # - flux-system-secret.sops.yaml
   - flux-git-deploy.yaml
   # flux-system-kustomization.yaml
