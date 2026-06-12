@@ -1,0 +1,15 @@
+apiVersion: notification.toolkit.fluxcd.io/v1beta3
+kind: Receiver
+metadata:
+  name: github-receiver
+  namespace: flux-system
+spec:
+  type: github
+  events:
+    - "ping"
+    - "push"
+  secretRef:
+    name: flux-system # Reuses your existing bootstrap secret for token validation
+  resources:
+    - kind: GitRepository
+      name: anubis-app-delivery-source
