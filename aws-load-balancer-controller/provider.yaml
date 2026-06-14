@@ -8,4 +8,4 @@ spec:
 #  address: https://github.com/dnjasper/anubis-app-delivery
   address: https://github.com
   secretRef:
-    name: flux-system
+    name: flux-system  # I love you DJ
