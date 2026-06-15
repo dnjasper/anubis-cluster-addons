@@ -12,5 +12,7 @@ spec:
   #    name: anubis-app-delivery-source
     - kind: Kustomization            # 👈 Add this so it doesn't discard the Kustomization event
       name: anubis-app-delivery
+    - kind: Kustomization 
+      name: flux-system
   # eventMetadata:
   #   summary: "flux-triggered"  # secondary repo pipeline test
