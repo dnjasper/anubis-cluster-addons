@@ -6,7 +6,7 @@ metadata:
 spec:
   providerRef:
     name: github-provider
-  eventSeverity: normal
+  eventSeverity: error
   eventSources:
   #  - kind: GitRepository
   #    name: anubis-app-delivery-source
