@@ -5,8 +5,8 @@ metadata:
   namespace: flux-system
 spec:
   type: githubdispatch
-#  address: https://github.com/dnjasper/anubis-app-delivery
-  address: https://github.com
+  address: https://github.com/dnjasper/anubis-app-delivery
+#  address: https://github.com
   secretRef:
    # name: github-webhook-token
     name: flux-system  # I love you DJ
