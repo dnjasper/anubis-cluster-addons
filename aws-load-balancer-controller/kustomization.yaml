@@ -7,7 +7,7 @@ resources:
   - gitrepo.yaml
   - apps-flux-kustomization.yaml
   - webhook-receiver.yaml
-  - provider.yaml
+#  - provider.yaml
   - alert.yaml
  # - flux-system-secret.sops.yaml
   - flux-git-deploy.yaml
