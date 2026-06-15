@@ -8,5 +8,6 @@ spec:
   address: https://github.com/dnjasper/anubis-app-delivery
 #  address: https://github.com
   secretRef:
+    name: github-notify
    # name: github-webhook-token
-    name: flux-system  # I love you DJ
+   # name: flux-system  # I love you DJ
