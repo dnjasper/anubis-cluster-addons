@@ -4,9 +4,9 @@ metadata:
   name: github-provider
   namespace: flux-system
 spec:
-  type: github
-  address: https://github.com/dnjasper/anubis-app-delivery
-#  address: https://github.com
+  type: githubdispatch
+ # address: https://github.com/dnjasper/anubis-app-delivery
+  address: https://github.com
   secretRef:
     name: github-notify
    # name: github-webhook-token

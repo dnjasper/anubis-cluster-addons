@@ -13,5 +13,6 @@ spec:
     - kind: Kustomization            # 👈 Add this so it doesn't discard the Kustomization event
       name: anubis-app-delivery
       namespace: flux-system
-  # eventMetadata:
-  #   summary: "flux-triggered"  # secondary repo pipeline test
+  inclusionList:
+    - ".*Reconciliation succeeded.*" # 👈 CRITICAL: Only trigger when completely finished!
+  
