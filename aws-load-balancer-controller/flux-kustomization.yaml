@@ -15,4 +15,6 @@ spec:
   targetNamespace: flux-system
   decryption:
     provider: sops
+    secretRef:
+      name: sops-age
   
