@@ -9,8 +9,8 @@ resources:
   - webhook-receiver.yaml
   - provider.yaml
   - alert.yaml
-  - flux-git-deploy.enc.yaml
-  - sops-age.enc.yaml
+ # - flux-git-deploy.enc.yaml
+ # - sops-age.enc.yaml
  # - flux-system-secret.sops.yaml
  # - flux-git-deploy.yaml
   # flux-system-kustomization.yaml
